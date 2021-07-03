@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".ProfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_round_arrow_back_24"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="@string/profil"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:textSize="25sp"/>
+            <ImageButton
+                android:id="@+id/btn_more"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:layout_weight="0.5"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                android:scaleType="fitCenter"
+                android:padding="10dp"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profil_list"
+                android:adjustViewBounds="true"/>
+        </ScrollView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bottom_rounded"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+</RelativeLayout>

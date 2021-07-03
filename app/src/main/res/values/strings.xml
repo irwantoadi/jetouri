@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Jetouri</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="hotel_di_sekitar_anda">Hotel di Sekitar Anda</string>
+    <string name="transportasi">Transportasi</string>
+    <string name="profil">Profil</string>
+    <string name="cari_destinasi">Cari Destinasi</string>
+    <string name="todo">TODO</string>
+</resources>
